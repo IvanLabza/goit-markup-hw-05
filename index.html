@@ -18,6 +18,16 @@
 
 <body>
 
+    <div class="bd-modal is-hidden" data-modal>
+        <div class="modal">
+            <button class="hero-btn-modal" type="button" data-modal-close>
+                <svg class="hero-modal-svg" width="8" height="8">
+                    <use href="./images/close.svg#close"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+
     <header class="head">
         <div class="conteiner">
             <div class="head-flex">
@@ -25,7 +35,7 @@
                     <a class="logo" href="./index.html">Web<span class="logo-second">Studio</span></a>
                     <ul class="head-navigation-list">
                         <li class="head-navigation">
-                            <a class="head-navigation-list-link" href="index.html">Studio</a>
+                            <a class="head-navigation-list-link active" href="index.html">Studio</a>
                         </li>
                         <li class="head-navigation">
                             <a class="head-navigation-list-link" href="portfolio.html">Portfolio</a>
@@ -52,20 +62,12 @@
     </header>
 
     <main>
+           
 
         <section class="hero section">
             <div class="conteiner">
                 <h1 class="hero-header">Effective Solutions for Your Business</h1>
                 <button class="hero-btn" type="button" data-modal-open >Order Service</button>
-                <div class="bd-modal is-hidden" data-modal>
-                    <div class="modal">
-                        <button class="hero-btn-modal" type="button" data-modal-close>
-                            <svg class="hero-modal-svg"  width="8" height="8">
-                                <use href="./images/Vector.svg"></use>
-                            </svg>
-                        </button>
-                    </div>
-                </div>
             </div>
         </section>
 
@@ -424,6 +426,8 @@
             </div>
         </div>
     </footer>
+
+
 
 <script src="./js/modal.js"></script>
 
